@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* En tu archivo CSS */
+@font-face {
+  font-family: 'Raleway';
+  src: url('/src/fonts/Raleway.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/src/fonts/Nunito.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Fredoka';
+  src: url('/src/fonts/Fredoka.ttf') format('truetype');
+}
+
+body {
+  background-color: #1b2838;
+}
+
